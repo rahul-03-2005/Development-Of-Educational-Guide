@@ -1,0 +1,248 @@
+[10:12 PM, 1/30/2025] RAHUL ⚡: <!DOCTYPE html>
+<html>
+<head>
+    <title>EduGuide</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainstyle.css"/>
+    <link rel="stylesheet" href="../VIHAAN/Bootstrap/css/bootstrap.css"/>
+    <script rel="javascript" src="../VIHAAN/Bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-dark  navbar-expan…
+[10:17 PM, 1/30/2025] RAHUL ⚡: <!DOCTYPE html>
+<html>
+<head>
+    <title>EduGuide</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="../VIHAAN/Bootstrap/css/bootstrap.css"/>
+    <script rel="javascript" src="../VIHAAN/Bootstrap/js/bootstrap.bundle.js"></script>
+    <!--<script rel="javascript" src="../Bootstrap/js/bootstrap.bundle.js"></script>-->
+</head>
+<style>
+ @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+ .container{
+  display: flex;
+  /min-height: 100vh;/
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 0 0 0 ;
+}
+
+body::before {
+  content:"";
+  position: absolute;
+  width: 100%;
+  height: 100% ;
+  background: url("https://cdn.pixabay.com/photo/2016/03/26/13/12/pencils-1280558_1280.jpg"), #000;
+  /*background: url("https://cdn.pixabay.com/photo/2023/01/15/16/20/library-7720589_960_720.jpg"),#000;
+  /*background: url("https://cdn.pixabay.com/photo/2017/12/29/20/45/read-3048651_640.jpg"),#000;*/
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper {
+  width: 500px;
+  border-radius: 30px;
+  padding:30px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+form {
+ padding: 0 0 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+  align-items: center;
+}
+
+.input-field {
+  position: relative;
+  border-bottom: 2px solid #ccc;
+  margin: 15px 0;
+}
+
+.input-field label {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.15s ease;
+}
+
+.input-field input {
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+}
+
+.input-field input:focus~label,
+.input-field input:valid~label {
+  font-size: 0.8rem;
+  top: 10px;
+  transform: translateY(-120%);
+}
+
+.forget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0 25px 0;
+  color: #fff;
+}
+
+#remember {
+  accent-color: #fff;
+}
+
+.forget label {
+  display: flex;
+  align-items: center;
+}
+
+.forget label p {
+  margin:0 0 0 8px;
+}
+
+.wrapper a {
+  color: #efefef;
+  text-decoration: none;
+}
+
+.wrapper a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 32px;
+  font-size: 16px;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  color: #fff;
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.register {
+  text-align: center;
+  margin:20px 0 0 0;
+}
+</style>
+<body>
+  <header>
+    <nav class="navbar navbar-dark  navbar-expand-xl sticky-top">
+      <div class="logo">
+        <img src="../proj-k(org)/img/logo3.png" alt="EduGuide Logo">
+      </div>
+      <a href="#" class="navbar-brand">EDU<span class="text-primary">GUIDE </span></a>
+      <ul class="navbar-links">
+        <li><a href="home.html" class="navbar-link">Home</a></li>
+        <li><a href="help.html" class="navbar-link">About</a></li>
+        <li><a href="services.html" class="navbar-link">Settings</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+  <div class="wrapper">
+    <form action="/post">
+      <h2>Login</h2>
+        <div class="input-field">
+        <input type="text" required>
+        <label>Enter your email</label>
+      </div>
+      <div class="input-field">
+        <input type="password" required>
+        <label>Enter your password</label>
+      </div>
+      <div class="forget">
+        <label for="remember">
+          <input type="checkbox" id="remember">
+          <p>Remember me</p>
+        </label>
+        <a href="#">Forgot password?</a>
+      </div>
+      <button type="submit">Log In</button>
+      <div class="register">
+        <p>Don't have an account? <a href="register.html">Register</a></p>
+      </div>
+    </form>
+  </div>
+</div>
+<footer>
+  <section class="top">
+    <img src="" />
+    <ul>
+      <li>
+        <h3>Resources</h3>
+        <a>Usage</a>
+        <a>Docs</a>
+        <a>Support</a>
+        <a>Hardware</a>
+      </li>
+   
+      <li>
+        <h3>Developers</h3>
+        <a>Forum</a>
+        <a>Projects</a>
+        <a>Open Source</a>
+        <a>GitHub</a>
+      </li>
+      <li>
+        <h3>Company</h3>
+        <a>About Us</a>
+        <a>Blog</a>
+        <a>Partnerships</a>
+        <a>Careers</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="bottom">© 2024 EduGuide</section>
+</footer>
+    
+     
+</body>
+</html>
